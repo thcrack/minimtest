@@ -1,0 +1,5 @@
+.DS_Store *.sublime-workspace *.sln
+*.sublime-workspace
+/build-tmp
+/build-tmp/*
+build-tmp/
