@@ -13,7 +13,7 @@ void setup()
   // loadFile will look in all the same places as loadImage does.
   // this means you can find files that are in the data folder and the 
   // sketch folder. you can also pass an absolute path, or a URL.
-  player = minim.loadFile("violentmusic.wav");
+  player = minim.loadFile("violentmusic.mp3");
 }
 
 void draw()
