@@ -1,4 +1,4 @@
-import ddf.minim.*;
+import minim.js;
 
 Minim minim;
 AudioPlayer player;
