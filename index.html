@@ -3,26 +3,10 @@
   <title>minim test</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>
-  <script type="text/javascript" src="minim.js"></script><!-- 
-  <script type="text/javascript">
-      var pjs;
-      var domId = "pde";
-      function bindSketch() {
-        var tmp = Processing.getInstanceById(domId);
-        if(tmp && tmp.bindJavaScript) {
-          pjs = tmp;
-          pjs.bindJavaScript(this);
-        } else { setTimeout(bindSketch, 250); }
-      }
-      document.addEventListener("DOMContentLoaded",function(){
-        var sketch = document.getElementById(domId);
-        sketch.focus();
-        bindSketch();
-      },false);
-    </script> -->
+  <script type="text/javascript" src="minim.js"></script>
 </head>
 <body>
-  <canvas id="pde" data-processing-sources="minimtest.pde preload.pde JavaScript.pde"></canvas>
+  <canvas id="pde" data-processing-sources="minimtest.pde preload.pde"></canvas>
   <div id="console"></div>
 </body>
 </html>
